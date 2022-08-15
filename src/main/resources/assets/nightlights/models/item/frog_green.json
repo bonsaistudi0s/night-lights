@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "nightlights:block/night_light_frog",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "nightlights:blocks/frog_green"
+	}
+}

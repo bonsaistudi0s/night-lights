@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "nightlights:block/frog_black",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "nightlights:block/frog_black"
+    },
+    "facing=south": {
+      "model": "nightlights:block/frog_black",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nightlights:block/frog_black",
+      "y": 270
+    }
+  }
+}
