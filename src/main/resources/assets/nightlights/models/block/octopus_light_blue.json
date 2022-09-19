@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "nightlights:block/night_light_octopus",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "nightlights:blocks/octopus_light_blue",
+		"particle": "nightlights:blocks/octopus_light_blue"
+	}
+}

@@ -25,6 +25,9 @@
             "item": "minecraft:light_blue_dye"
         }
     },
-    "result": {},
-    "group": "nightlights"
+    "result": {
+        "item": "nightlights:frog_light_blue",
+        "count": 1
+    },
+    "group": "frog_light_blue"
 }

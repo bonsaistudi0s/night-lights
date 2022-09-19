@@ -3,6 +3,7 @@
 	"parent": "nightlights:block/night_light_frog",
 	"texture_size": [32, 32],
 	"textures": {
-		"2": "nightlights:blocks/frog_purple"
+		"2": "nightlights:blocks/frog_purple",
+		"particle": "nightlights:blocks/frog_purple"
 	}
 }

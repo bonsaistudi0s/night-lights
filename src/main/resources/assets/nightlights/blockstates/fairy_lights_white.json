@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "nightlights:block/fairy_lights_white",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "nightlights:block/fairy_lights_white"
+    },
+    "facing=south": {
+      "model": "nightlights:block/fairy_lights_white",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nightlights:block/fairy_lights_white",
+      "y": 270
+    }
+  }
+}

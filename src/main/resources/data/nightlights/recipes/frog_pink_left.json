@@ -25,6 +25,9 @@
             "item": "minecraft:pink_dye"
         }
     },
-    "result": {},
-    "group": "nightlights"
+    "result": {
+        "item": "nightlights:frog_pink",
+        "count": 1
+    },
+    "group": "frog_pink"
 }

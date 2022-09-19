@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I# ",
+        "GNG",
+        "RBR"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:buttons"
+        },
+        "I": {
+            "item": "minecraft:ink_sac"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        },
+        "N": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "B": {
+            "item": "minecraft:light_gray_dye"
+        }
+    },
+    "result": {
+        "item": "nightlights:octopus_light_gray",
+        "count": 1
+    },
+    "group": "octopus_light_gray"
+}

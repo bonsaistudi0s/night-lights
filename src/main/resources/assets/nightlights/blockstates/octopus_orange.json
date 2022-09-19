@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "nightlights:block/octopus_orange",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "nightlights:block/octopus_orange"
+    },
+    "facing=south": {
+      "model": "nightlights:block/octopus_orange",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nightlights:block/octopus_orange",
+      "y": 270
+    }
+  }
+}

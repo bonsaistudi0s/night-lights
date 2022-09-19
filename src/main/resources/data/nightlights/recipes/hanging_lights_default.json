@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "nightlights:hanging_lights"
+		}
+	],
+	"result": {
+		"item": "nightlights:hanging_lights_default",
+		"count": 1
+	}
+}

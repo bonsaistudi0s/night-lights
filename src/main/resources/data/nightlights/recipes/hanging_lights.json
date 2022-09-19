@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "III"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        },
+        "I": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "nightlights:hanging_lights_default",
+        "count": 6
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "nightlights:fairy_lights"
+		},
+		{
+			"item": "minecraft:green_dye"
+		}
+	],
+	"result": {
+		"item": "nightlights:fairy_lights_green",
+		"count": 1
+	}
+}

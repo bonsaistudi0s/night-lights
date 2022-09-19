@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "nightlights:block/mushroom_pink",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "nightlights:block/mushroom_pink"
+    },
+    "facing=south": {
+      "model": "nightlights:block/mushroom_pink",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nightlights:block/mushroom_pink",
+      "y": 270
+    }
+  }
+}

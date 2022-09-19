@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "nightlights:block/hanging_lights_cyan",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "nightlights:block/hanging_lights_cyan"
+    },
+    "facing=south": {
+      "model": "nightlights:block/hanging_lights_cyan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nightlights:block/hanging_lights_cyan",
+      "y": 270
+    }
+  }
+}

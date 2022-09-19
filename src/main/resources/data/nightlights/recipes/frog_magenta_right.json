@@ -25,6 +25,9 @@
             "item": "minecraft:magenta_dye"
         }
     },
-    "result": {},
-    "group": "nightlights"
+    "result": {
+        "item": "nightlights:frog_magenta",
+        "count": 1
+    },
+    "group": "frog_magenta"
 }

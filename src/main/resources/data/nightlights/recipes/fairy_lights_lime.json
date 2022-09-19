@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "nightlights:fairy_lights"
+		},
+		{
+			"item": "minecraft:lime_dye"
+		}
+	],
+	"result": {
+		"item": "nightlights:fairy_lights_lime",
+		"count": 1
+	}
+}
