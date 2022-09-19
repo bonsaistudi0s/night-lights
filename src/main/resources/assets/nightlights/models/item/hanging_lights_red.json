@@ -3,8 +3,8 @@
 	"parent": "hanging_lights_red",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "nightlights:blocks/hanging_lights_purple",
-		"particle": "nightlights:blocks/hanging_lights_purple"
+		"1": "nightlights:blocks/hanging_lights_red",
+		"particle": "nightlights:blocks/hanging_lights_red"
 	},
 	"elements": [
 		{
@@ -164,6 +164,7 @@
 		{
 			"from": [4.28033, 9.05546, 13.5],
 			"to": [4.28033, 10.05546, 16.5],
+			"shade": false,
 			"rotation": {"angle": 45, "axis": "z", "origin": [3.5, 11.39645, 15]},
 			"faces": {
 				"north": {"uv": [1.5, 11.5, 1.5, 12], "texture": "#1"},
@@ -177,6 +178,7 @@
 		{
 			"from": [14.599, 9.999, 12.899],
 			"to": [16.601, 11.001, 13.901],
+			"shade": false,
 			"rotation": {"angle": -45, "axis": "y", "origin": [14.9, 10.5, 13.1]},
 			"faces": {
 				"north": {"uv": [0.5, 9.5, 1.5, 10], "texture": "#1"},
@@ -286,7 +288,37 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 0, -6.5]
+			"rotation": [67, 0, 0],
+			"translation": [0, -0.25, -4.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [67, 0, 0],
+			"translation": [0, -0.25, -4.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [5, 0, 0],
+			"translation": [0, -2.25, -4.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [5, 0, 0],
+			"translation": [0, -2.25, -4.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, -2.75, -3.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [0, 180, 0]
+		},
+		"head": {
+			"translation": [0, 5, -5.5]
+		},
+		"fixed": {
+			"translation": [0, 2, -6.25]
 		}
 	},
 	"groups": [

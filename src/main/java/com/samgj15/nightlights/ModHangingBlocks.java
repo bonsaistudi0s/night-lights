@@ -1,12 +1,9 @@
 package com.samgj15.nightlights;
 
-import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -19,7 +16,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModHangingBlocks {
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, NightLightsMain.MOD_ID);
 	
-	public static final RegistryObject<Block> HANGING_LIGHTS_BLACK = BLOCKS.register("hanging_lights_black", () -> new ModCeilingBlock(Block.Properties.copy(Blocks.FLOWER_POT).noOcclusion().emissiveRendering(ModHangingBlocks::always).noCollission().instabreak().lightLevel((level) -> {
+	public static final RegistryObject<Block> HANGING_LIGHTS_BLACK = BLOCKS.register("hanging_lights_black", () -> new ModCeilingBlock(Block.Properties.copy(Blocks.FLOWER_POT).noOcclusion().noCollission().instabreak().lightLevel((level) -> {
 		return(6);
 	})));
 	public static final RegistryObject<Block> HANGING_LIGHTS_BLUE = BLOCKS.register("hanging_lights_blue", () -> new ModCeilingBlock(Block.Properties.copy(HANGING_LIGHTS_BLACK.get())));
@@ -57,10 +54,6 @@ public class ModHangingBlocks {
 	public static final RegistryObject<Block> FAIRY_LIGHTS_WHITE = BLOCKS.register("fairy_lights_white", () -> new ModCeilingBlock(Block.Properties.copy(HANGING_LIGHTS_BLACK.get())));
 	public static final RegistryObject<Block> FAIRY_LIGHTS_YELLOW = BLOCKS.register("fairy_lights_yellow", () -> new ModCeilingBlock(Block.Properties.copy(HANGING_LIGHTS_BLACK.get())));
 
-	private static boolean always(BlockState p_50775_, BlockGetter p_50776_, BlockPos p_50777_) {
-	      return true;
-	   }
-	
 	@SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         final IForgeRegistry<Item> registry = event.getRegistry();
